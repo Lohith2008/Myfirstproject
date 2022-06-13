@@ -544,10 +544,24 @@ h2::after {
         justify-content: start;
     }
 }
-@media screen and (max-width:1020px) and (min-width:426){
-	.paint{
-		width:100%;
-	}
+@media screen and (min-width:427px) and (max-width:1020px){
+    .paint{
+        width: 90%;
+        object-fit: cover;
+    }
+    .images-2{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1025) and (max-width:1440px){
+    .paint{
+        width: 90%;
+    }
+    .texts-blog{ 
+        margin-left: 50px !important;
+        font-size: 20px !important;
+    }
+}
 @media screen and (max-width:320px){
     .we p{
         font-size: 50px ;
