@@ -204,13 +204,14 @@ body{
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
 }
 .card-2{
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .card-1-sub{
     width: 284.98px;
