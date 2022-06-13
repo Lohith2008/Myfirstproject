@@ -544,6 +544,10 @@ h2::after {
         justify-content: start;
     }
 }
+@media screen and (max-width:1020px) and (min-width:426){
+	.paint{
+		width:100%;
+	}
 @media screen and (max-width:320px){
     .we p{
         font-size: 50px ;
